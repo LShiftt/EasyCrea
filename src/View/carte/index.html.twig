@@ -1,0 +1,52 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}
+	Ajouter une carte au deck - {{parent()}}
+{% endblock %}
+
+{% block content %}
+	<main class="container">
+		<h1>Votre participation au deck : {{ deck.titre_deck }}</h1>
+		<a href="{{ url('/deck') }}" class="btn btn-primary m-4">Voir les jeux de cartes actuels</a>
+		
+		<section style="display: flex; gap: 20px;">
+			<div class="container w-50">
+				<label for="creation" class="form-label">Votre création</label>
+				<div id="exemple" style="border: 3px solid black; border-radius: 10px; padding: 10px; min-width: 180px; height: 500px; overflow: auto;">
+					<p>{{ res.texte_carte }}</p>
+					<hr>
+					<div class="col-md-2">
+						<h6>Choix n°1</h6>
+						<p>Population : {{ res.valeurs_choix1_pop }}</p>
+						<p>Finance : {{ res.valeurs_choix1_fin }}</p>
+					</div>
+					<hr>
+					<div class="col-md-2">
+						<h6>Choix n°2</h6>
+						<p>Population : {{ res.valeurs_choix2_pop }}</p>
+						<p>Finance : {{ res.valeurs_choix2_fin }}</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="container w-50">
+				<label for="exemple" class="form-label">Votre exemple</label>
+				<div id="exemple" style="border: 3px solid black; border-radius: 10px; padding: 10px; min-width: 180px; height: 500px; overflow: auto;">
+					<p>{{ resRng.texte_carte }}</p>
+					<hr>
+					<div class="col-md-2">
+						<h6>Choix n°1</h6>
+						<p>Population : {{ resRng.valeurs_choix1_pop }}</p>
+						<p>Finance : {{ resRng.valeurs_choix1_fin }}</p>
+					</div>
+					<hr>
+					<div class="col-md-2">
+						<h6>Choix n°2</h6>
+						<p>Population : {{ resRng.valeurs_choix2_pop }}</p>
+						<p>Finance : {{ resRng.valeurs_choix2_fin }}</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+{% endblock %}

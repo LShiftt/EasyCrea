@@ -1,0 +1,74 @@
+[2024-10-02 23:17:22]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'avatar@index',
+        2 => array(),
+    )
+    exception-line: 234
+    exception-file: 'C:\xampp\htdocs\starter-mvc-atelier-2\src\Model\Model.php'
+    exception-code: 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 's5.tp1.etudiant-parcours.avatar' doesn't exist'
+[2024-10-02 23:17:25]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'avatar@index',
+        2 => array(),
+    )
+    exception-line: 234
+    exception-file: 'C:\xampp\htdocs\starter-mvc-atelier-2\src\Model\Model.php'
+    exception-code: 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 's5.tp1.etudiant-parcours.avatar' doesn't exist'
+[2024-10-02 23:17:25]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'avatar@index',
+        2 => array(),
+    )
+    exception-line: 234
+    exception-file: 'C:\xampp\htdocs\starter-mvc-atelier-2\src\Model\Model.php'
+    exception-code: 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 's5.tp1.etudiant-parcours.avatar' doesn't exist'
+[2024-10-02 23:20:20]	[ALERT]	500 - le contrôleur App\Controller\EtudController n'existe pas
+[2024-10-02 23:22:06]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'etud@index',
+        2 => array(),
+    )
+    exception-line: 234
+    exception-file: 'C:\xampp\htdocs\starter-mvc-atelier-2\src\Model\Model.php'
+    exception-code: 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 's5.tp1.etudiant-parcours.etud' doesn't exist'
+[2024-10-02 23:22:17]	[ALERT]	404 - commande non existante :: /étudiant
+[2024-10-02 23:22:29]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'etud@index',
+        2 => array(),
+    )
+    exception-line: 234
+    exception-file: 'C:\xampp\htdocs\starter-mvc-atelier-2\src\Model\Model.php'
+    exception-code: 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 's5.tp1.etudiant-parcours.etud' doesn't exist'
+[2024-10-02 23:22:34]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'etud@index',
+        2 => array(),
+    )
+    exception-line: 234
+    exception-file: 'C:\xampp\htdocs\starter-mvc-atelier-2\src\Model\Model.php'
+    exception-code: 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 's5.tp1.etudiant-parcours.etud' doesn't exist'
+[2024-10-02 23:23:34]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'etud@index',
+        2 => array(),
+    )
+    exception-line: 234
+    exception-file: 'C:\xampp\htdocs\starter-mvc-atelier-2\src\Model\Model.php'
+    exception-code: 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 's5.tp1.etudiant-parcours.etud' doesn't exist'
+[2024-10-02 23:23:34]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'etud@index',
+        2 => array(),
+    )
+    exception-line: 234
+    exception-file: 'C:\xampp\htdocs\starter-mvc-atelier-2\src\Model\Model.php'
+    exception-code: 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 's5.tp1.etudiant-parcours.etud' doesn't exist'

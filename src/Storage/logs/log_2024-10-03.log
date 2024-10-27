@@ -1,0 +1,48 @@
+[2024-10-03 11:24:34]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'etudiant@index',
+        2 => array(),
+    )
+    exception-line: 227
+    exception-file: 'C:\xampp\htdocs\starter-mvc-atelier-2\vendor\twig\twig\src\Loader\FilesystemLoader.php'
+    exception-code: 'Unable to find template "etudiant/index.html.twig" (looked into: C:\xampp\htdocs\starter-mvc-atelier-2\src\View).'
+[2024-10-03 11:38:38]	[ALERT]	404 - commande non existante :: /etudiant/ajouter
+[2024-10-03 12:13:08]	[ALERT]	500 - le contrôleur App\Controller\ParcoursController n'existe pas
+[2024-10-03 12:13:42]	[ALERT]	500 - le contrôleur App\Controller\ParcoursController n'existe pas
+[2024-10-03 12:14:12]	[ALERT]	500 - le contrôleur App\Controller\ParcoursController n'existe pas
+[2024-10-03 12:14:13]	[ALERT]	500 - le contrôleur App\Controller\ParcoursController n'existe pas
+[2024-10-03 12:16:18]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'parcours@index',
+        2 => array(),
+    )
+    exception-line: 227
+    exception-file: 'C:\xampp\htdocs\starter-mvc-atelier-2\vendor\twig\twig\src\Loader\FilesystemLoader.php'
+    exception-code: 'Unable to find template "parcour/index.html.twig" (looked into: C:\xampp\htdocs\starter-mvc-atelier-2\src\View).'
+[2024-10-03 12:19:45]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'parcours@index',
+        2 => array(),
+    )
+    exception-line: 227
+    exception-file: 'C:\xampp\htdocs\starter-mvc-atelier-2\vendor\twig\twig\src\Loader\FilesystemLoader.php'
+    exception-code: 'Unable to find template "parcour/index.html.twig" (looked into: C:\xampp\htdocs\starter-mvc-atelier-2\src\View).'
+[2024-10-03 12:22:48]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'parcours@index',
+        2 => array(),
+    )
+    exception-line: 7
+    exception-file: 'C:\xampp\htdocs\starter-mvc-atelier-2\src\View\parcours\index.html.twig'
+    exception-code: 'Arguments must be separated by a comma. Unexpected token "punctuation" of value "{" ("punctuation" expected with value ",").'
+[2024-10-03 12:26:33]	[ALERT]	404 - commande non existante :: /module/3
+[2024-10-03 12:27:14]	[ALERT]	404 - commande non existante :: /module/3
+[2024-10-03 12:27:16]	[ALERT]	404 - commande non existante :: /module/3
+[2024-10-03 12:27:16]	[ALERT]	404 - commande non existante :: /module/3
+[2024-10-03 12:27:16]	[ALERT]	404 - commande non existante :: /module/3
+[2024-10-03 12:27:20]	[ALERT]	404 - commande non existante :: /module/3
+[2024-10-03 12:27:29]	[ALERT]	404 - commande non existante :: /module/3

@@ -1,0 +1,75 @@
+[2024-10-18 9:59:16]	[ALERT]	404 - commande non existante :: /deck/create
+[2024-10-18 10:08:51]	[ALERT]	404 - commande non existante :: /deck/create
+[2024-10-18 10:09:31]	[ALERT]	500 - la méthode create n'existe pas
+[2024-10-18 10:22:53]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'createur@register',
+        2 => array(),
+    )
+    exception-line: 36
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\CreateurController.php'
+    exception-code: 'Undefined array key "nom"'
+[2024-10-18 10:23:19]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'createur@register',
+        2 => array(),
+    )
+    exception-line: 36
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\CreateurController.php'
+    exception-code: 'Undefined array key "nom"'
+[2024-10-18 10:37:45]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@index',
+        2 => array(),
+    )
+    exception-line: 20
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\DeckController.php'
+    exception-code: 'Undefined array key "rank"'
+[2024-10-18 11:51:58]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@createDeck',
+        2 => array(),
+    )
+    exception-line: 55
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\DeckController.php'
+    exception-code: 'Undefined array key "texte"'
+[2024-10-18 12:14:14]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@createDeck',
+        2 => array(),
+    )
+    exception-line: 56
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\DeckController.php'
+    exception-code: 'Undefined array key "val1"'
+[2024-10-18 12:22:50]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@createDeck',
+        2 => array(),
+    )
+    exception-line: 65
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\DeckController.php'
+    exception-code: 'Undefined array key "id"'
+[2024-10-18 12:23:47]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@createDeck',
+        2 => array(),
+    )
+    exception-line: 231
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Model\Model.php'
+    exception-code: 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`easycrea`.`carte`, CONSTRAINT `carte_ibfk_1` FOREIGN KEY (`id_createur`) REFERENCES `createur` (`id_createur`))'
+[2024-10-18 12:26:41]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@createDeck',
+        2 => array(),
+    )
+    exception-line: 31
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Helper\HTTP.php'
+    exception-code: 'Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\EasyCreaMVC\vendor\twig\twig\src\Template.php:350)'

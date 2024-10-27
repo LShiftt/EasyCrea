@@ -1,0 +1,312 @@
+[2024-10-14 10:48:53]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'etudiant@index',
+        2 => array(),
+    )
+    exception-line: 18
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Model\Etudiant.php'
+    exception-code: 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easycrea.etudiant' doesn't exist'
+[2024-10-14 10:50:10]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'etudiant@index',
+        2 => array(),
+    )
+    exception-line: 18
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Model\Etudiant.php'
+    exception-code: 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easycrea.etudiant' doesn't exist'
+[2024-10-14 10:50:26]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'parcours@index',
+        2 => array(),
+    )
+    exception-line: 234
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Model\Model.php'
+    exception-code: 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easycrea.parcours' doesn't exist'
+[2024-10-14 10:52:37]	[ALERT]	404 - commande non existante :: /parcours
+[2024-10-14 10:52:44]	[ALERT]	500 - le contrôleur App\Controller\HomeController n'existe pas
+[2024-10-14 10:56:15]	[ALERT]	500 - le contrôleur App\Controller\HomeController n'existe pas
+[2024-10-14 10:58:01]	[ALERT]	500 - le contrôleur App\Controller\HomeController n'existe pas
+[2024-10-14 11:00:58]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'home@index',
+        2 => array(),
+    )
+    exception-line: 18
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Model\Etudiant.php'
+    exception-code: 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easycrea.etudiant' doesn't exist'
+[2024-10-14 11:01:56]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'home@index',
+        2 => array(),
+    )
+    exception-line: 18
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Model\Etudiant.php'
+    exception-code: 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easycrea.etudiant' doesn't exist'
+[2024-10-14 11:03:19]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'home@index',
+        2 => array(),
+    )
+    exception-line: 227
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\vendor\twig\twig\src\Loader\FilesystemLoader.php'
+    exception-code: 'Unable to find template "home/home.html.twig" (looked into: C:\xampp\htdocs\EasyCreaMVC\src\View).'
+[2024-10-14 11:03:20]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'home@index',
+        2 => array(),
+    )
+    exception-line: 227
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\vendor\twig\twig\src\Loader\FilesystemLoader.php'
+    exception-code: 'Unable to find template "home/home.html.twig" (looked into: C:\xampp\htdocs\EasyCreaMVC\src\View).'
+[2024-10-14 11:24:53]	[ALERT]	404 - commande non existante :: /ttrrr
+[2024-10-14 11:58:05]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'home@login',
+        2 => array(),
+    )
+    exception-line: 32
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\HomeController.php'
+    exception-code: 'Undefined array key "nom"'
+[2024-10-14 11:58:12]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'home@login',
+        2 => array(),
+    )
+    exception-line: 32
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\HomeController.php'
+    exception-code: 'Undefined array key "nom"'
+[2024-10-14 11:58:47]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'home@login',
+        2 => array(),
+    )
+    exception-line: 32
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\HomeController.php'
+    exception-code: 'Undefined array key "nom"'
+[2024-10-14 12:00:03]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'home@login',
+        2 => array(),
+    )
+    exception-line: 31
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\HomeController.php'
+    exception-code: 'Undefined array key "mail"'
+[2024-10-14 12:00:46]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'home@login',
+        2 => array(),
+    )
+    exception-line: 31
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\HomeController.php'
+    exception-code: 'Undefined array key "mail"'
+[2024-10-14 12:01:48]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'home@login',
+        2 => array(),
+    )
+    exception-line: 29
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\HomeController.php'
+    exception-code: 'Undefined array key "mail"'
+[2024-10-14 12:01:50]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'home@login',
+        2 => array(),
+    )
+    exception-line: 29
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\HomeController.php'
+    exception-code: 'Undefined array key "mail"'
+[2024-10-14 12:03:00]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'home@login',
+        2 => array(),
+    )
+    exception-line: 29
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\HomeController.php'
+    exception-code: 'Undefined array key "mail"'
+[2024-10-14 12:03:51]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'home@login',
+        2 => array(),
+    )
+    exception-line: 30
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\HomeController.php'
+    exception-code: 'Undefined array key "mail"'
+[2024-10-14 12:03:53]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'home@login',
+        2 => array(),
+    )
+    exception-line: 30
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\HomeController.php'
+    exception-code: 'Undefined array key "mail"'
+[2024-10-14 12:03:54]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'home@login',
+        2 => array(),
+    )
+    exception-line: 30
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\HomeController.php'
+    exception-code: 'Undefined array key "mail"'
+[2024-10-14 12:03:55]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'home@login',
+        2 => array(),
+    )
+    exception-line: 30
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\HomeController.php'
+    exception-code: 'Undefined array key "mail"'
+[2024-10-14 12:03:56]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'home@login',
+        2 => array(),
+    )
+    exception-line: 30
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\HomeController.php'
+    exception-code: 'Undefined array key "mail"'
+[2024-10-14 12:06:10]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'home@login',
+        2 => array(),
+    )
+    exception-line: 29
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\HomeController.php'
+    exception-code: 'Undefined array key "mail"'
+[2024-10-14 12:08:03]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'home@login',
+        2 => array(),
+    )
+    exception-line: 29
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\HomeController.php'
+    exception-code: 'Undefined array key "mail"'
+[2024-10-14 12:08:52]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'home@login',
+        2 => array(),
+    )
+    exception-line: 29
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\HomeController.php'
+    exception-code: 'Undefined array key "mail"'
+[2024-10-14 12:08:55]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'home@login',
+        2 => array(),
+    )
+    exception-line: 29
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\HomeController.php'
+    exception-code: 'Undefined array key "mail"'
+[2024-10-14 12:09:22]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'home@login',
+        2 => array(),
+    )
+    exception-line: 30
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\HomeController.php'
+    exception-code: 'Undefined array key "mail"'
+[2024-10-14 12:09:47]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'home@login',
+        2 => array(),
+    )
+    exception-line: 30
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\HomeController.php'
+    exception-code: 'Undefined array key "mail"'
+[2024-10-14 12:19:28]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'home@login',
+        2 => array(),
+    )
+    exception-line: 30
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\HomeController.php'
+    exception-code: 'Undefined array key "mail"'
+[2024-10-14 12:20:25]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'home@login',
+        2 => array(),
+    )
+    exception-line: 31
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\HomeController.php'
+    exception-code: 'Undefined array key "mdp"'
+[2024-10-14 12:20:29]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'home@login',
+        2 => array(),
+    )
+    exception-line: 31
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\HomeController.php'
+    exception-code: 'Undefined array key "mdp"'
+[2024-10-14 12:21:00]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'home@login',
+        2 => array(),
+    )
+    exception-line: 31
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\HomeController.php'
+    exception-code: 'Undefined array key "mdp"'
+[2024-10-14 12:29:28]	[ALERT]	404 - commande non existante :: /index/login
+[2024-10-14 12:31:37]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'home@login',
+        2 => array(),
+    )
+    exception-line: 231
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Model\Model.php'
+    exception-code: 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mail_admin' in 'where clause''
+[2024-10-14 17:10:47]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'home@login',
+        2 => array(),
+    )
+    exception-line: 231
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Model\Model.php'
+    exception-code: 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mail_admin' in 'where clause''
+[2024-10-14 17:11:05]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'home@login',
+        2 => array(),
+    )
+    exception-line: 231
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Model\Model.php'
+    exception-code: 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mail_admin' in 'where clause''
+[2024-10-14 17:18:25]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'home@login',
+        2 => array(),
+    )
+    exception-line: 231
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Model\Model.php'
+    exception-code: 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mail_admin' in 'where clause''

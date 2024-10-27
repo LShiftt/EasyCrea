@@ -1,0 +1,136 @@
+[2024-10-23 13:47:18]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 231
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Model\Model.php'
+    exception-code: 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY''
+[2024-10-23 13:47:22]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 231
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Model\Model.php'
+    exception-code: 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY''
+[2024-10-23 13:47:25]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 25
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\CarteController.php'
+    exception-code: 'Trying to access array offset on value of type int'
+[2024-10-23 14:34:39]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(),
+    )
+    exception-line: 53
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\CarteController.php'
+    exception-code: 'Undefined property: App\Controller\CarteController::$idDeck'
+[2024-10-23 14:34:43]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(),
+    )
+    exception-line: 53
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\CarteController.php'
+    exception-code: 'Undefined property: App\Controller\CarteController::$idDeck'
+[2024-10-23 14:38:59]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(),
+    )
+    exception-line: 53
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\CarteController.php'
+    exception-code: 'Accessing static property App\Controller\CarteController::$idDeckThis as non static'
+[2024-10-23 14:39:00]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 21
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\CarteController.php'
+    exception-code: 'Accessing static property App\Controller\CarteController::$idDeckThis as non static'
+[2024-10-23 14:39:11]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 21
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\CarteController.php'
+    exception-code: 'Accessing static property App\Controller\CarteController::$idDeckThis as non static'
+[2024-10-23 14:47:47]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '2',
+        ),
+    )
+    exception-line: 26
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\CarteController.php'
+    exception-code: 'Trying to access array offset on value of type int'
+[2024-10-23 14:57:07]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@index',
+        2 => array(),
+    )
+    exception-line: 35
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\DeckController.php'
+    exception-code: 'Undefined variable $resCartes'
+[2024-10-23 14:58:35]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@createDeck',
+        2 => array(),
+    )
+    exception-line: 35
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\DeckController.php'
+    exception-code: 'Undefined variable $resCartes'
+[2024-10-23 14:58:46]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '3',
+        ),
+    )
+    exception-line: 27
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\CarteController.php'
+    exception-code: 'Trying to access array offset on value of type int'
+[2024-10-23 15:03:51]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '3',
+        ),
+    )
+    exception-line: 22
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\CarteController.php'
+    exception-code: 'Trying to access array offset on value of type bool'
+[2024-10-23 15:50:22]	[ALERT]	404 - commande non existante :: /deck/see/3
+[2024-10-23 15:50:28]	[ALERT]	404 - commande non existante :: /deck/see/3
+[2024-10-23 16:25:20]	[ALERT]	500 - la méthode index n'existe pas

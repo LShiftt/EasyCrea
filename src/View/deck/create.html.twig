@@ -1,0 +1,71 @@
+{% extends 'layout.html.twig' %}
+{% block title %}
+  Créer un jeu de carte - {{parent()}}
+{% endblock %}
+{% block content %}
+  <main class="container">
+    <h1>Créer un jeu de carte</h1>
+    <form action="{{ url('/deck/create') }}" method="post" class="w-50" enctype="multipart/form-data">
+      <div class="mb-3">
+        <label class="form-label">
+          Titre
+          <span class="required-info">*</span>
+          :
+        </label>
+        <input name="titre" type="text" class="form-control w-50" required />
+      </div>
+      <div class="mb-3">
+        <label class="form-label">
+          Date de fin
+          <span class="required-info">*</span>
+          :
+        </label>
+        <input name="dateFin" type="date" class="form-control w-50" required />
+      </div>
+      <div class="mb-3">
+        <label class="form-label">
+          Nombre de carte
+          <span class="required-info">*</span>
+          :
+        </label>
+        <input name="nbCarte" type="number" class="form-control" required />
+      </div>
+
+      {# ////////////////////////////////////////////////////////////////////////////////// #}
+
+      <h2>Créer la première carte</h2>
+      <div class="mb-3">
+        <label class="form-label">
+          Texte
+          <span class="required-info">*</span>
+          :
+        </label>
+        <textarea name="texte" class="form-control w-50" required minlength="50" maxlength="280"></textarea>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">
+          Choix n°1
+          <span class="required-info">*</span>:
+        </label>
+        <div>
+          <input name="population1" type="number" placeholder="Population" />
+          <input name="finance1" type="number" placeholder="Finance" />
+        </div>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">
+          Choix n°2
+          <span class="required-info">*</span>:
+        </label>
+        <div>
+          <input name="population2" type="number" placeholder="Population" />
+          <input name="finance2" type="number" placeholder="Finance" />
+        </div>
+      </div>
+
+      <p class="text-danger fs-6">Les données marquées d'une astérisque sont obligatoires.</p>
+      <button type="submit" class="btn btn-primary">Enregistrer ?</button>
+      <a href="{{ url('/') }}" class="btn btn-link text-black">annuler</a>
+    </form>
+  </main>
+{% endblock %}

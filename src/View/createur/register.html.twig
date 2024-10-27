@@ -1,0 +1,62 @@
+{% extends 'layout.html.twig' %}
+{% block title %}
+	Créer un compte - {{parent()}}
+{% endblock %}
+{% block content %}
+	<main class="container">
+		<h1>Créer un compte</h1>
+		<form action="{{ url('/createur/register') }}" method="post" class="w-50" enctype="multipart/form-data">
+			<div class="mb-3">
+				<label class="form-label">
+					Nom
+					<span class="required-info">*</span>
+					:
+				</label>
+				<input name="nom" type="text" class="form-control w-50" required/>
+			</div>
+			<div class="mb-3">
+				<label class="form-label">
+					Email
+					<span class="required-info">*</span>
+					:
+				</label>
+				<input name="mail" type="email" class="form-control" required/>
+			</div>
+			<div class="mb-3">
+				<label class="form-label">
+					Mot de passe
+					<span class="required-info">*</span>
+					:
+				</label>
+				<input name="mdp" type="password" class="form-control w-50" required/>
+			</div>
+			<div class="mb-3">
+				<label class="form-label">
+					Genre
+					<span class="required-info">*</span>:
+				</label>
+				<div>
+					<input id="genre_m" name="genre" type="radio" value="M" checked/>
+					<label for="genre_m">M</label>
+
+					<input id="genre_f" name="genre" type="radio" value="F"/>
+					<label for="genre_f">F</label>
+				</div>
+			</div>
+			<div class="mb-3">
+				<label class="form-label">
+					Date de naissance
+					<span class="required-info"></span>
+					:
+				</label>
+				<input name="date" type="date" class="form-control w-50"/>
+			</div>
+			<p class="text-danger fs-6">Les données marquées d'une astérisque sont obligatoires.</p>
+			{% if res is same as(true) %}
+				<p class="text-danger fs-6">Adresse mail déjà utilisé, veuillez rééssayer.</p>
+			{% endif %}
+			<button type="submit" class="btn btn-primary">Enregistrer ?</button>
+			<a href="{{ url('/') }}" class="btn btn-link text-black">annuler</a>
+		</form>
+	</main>
+{% endblock %}

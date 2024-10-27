@@ -1,0 +1,27 @@
+[2024-10-27 15:26:10]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@index',
+        2 => array(),
+    )
+    exception-line: 78
+    exception-file: 'C:\xampp\htdocs\EasyCrea\src\View\deck\index.html.twig'
+    exception-code: 'Unexpected "else" tag (expecting closing tag for the "if" tag defined near line 39).'
+[2024-10-27 15:26:45]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@index',
+        2 => array(),
+    )
+    exception-line: 82
+    exception-file: 'C:\xampp\htdocs\EasyCrea\src\View\deck\index.html.twig'
+    exception-code: 'Unexpected "endblock" tag (expecting closing tag for the "if" tag defined near line 39).'
+[2024-10-27 15:42:34]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'createur@register',
+        2 => array(),
+    )
+    exception-line: 31
+    exception-file: 'C:\xampp\htdocs\EasyCrea\src\Controller\CreateurController.php'
+    exception-code: 'compact(): Undefined variable $res'

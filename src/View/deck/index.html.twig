@@ -1,0 +1,82 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}
+    Jeux de carte - {{parent()}}
+{% endblock %}
+
+{% block content %}
+    <div class="container my-5">
+        <h1 class="display-1 mb-4">Les jeux de carte actuels</h1>
+        <a href="{{ url('/') }}" class="btn btn-link text-black">Revenir sur la page d'accueil</a>
+
+        {% if admin %}
+            <a href="{{ url('/deck/create') }}" class="btn btn-primary m-4">Créer un nouveau jeu de carte</a>
+            {% if res %}
+                <div class="row">
+                    {% for element in res %}
+                        <div class="col-md-4 mb-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h2 class="card-title">{{ element.titre_deck }}</h2>
+                                    <h3 class="card-subtitle mb-2 text-muted">
+                                        {{ element.nb_cartes }} cartes max
+                                    </h3>
+                                    <p class="card-text">
+                                        <span class="fw-bold">Date de début :</span>
+                                        {{ element.date_debut_deck|date('d/m/Y') }}
+                                    </p>
+                                    <p class="card-text">
+                                        <span class="fw-bold">Date de fin :</span>
+                                        {{ element.date_fin_deck|date('d/m/Y') }}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        {% else %}
+            {% if decksWithIsFull %}
+                <div class="row">
+                    {% for element in decksWithIsFull %}
+                        <div class="col-md-4 mb-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h2 class="card-title">{{ element.titre_deck }}</h2>
+                                    <h3 class="card-subtitle mb-2 text-muted">
+                                        {{ element.nb_cartes }} cartes max
+                                    </h3>
+                                    <p class="card-text">
+                                        <span class="fw-bold">Date de début :</span>
+                                        {{ element.date_debut_deck|date('d/m/Y') }}
+                                    </p>
+                                    <p class="card-text">
+                                        <span class="fw-bold">Date de fin :</span>
+                                        {{ element.date_fin_deck|date('d/m/Y') }}
+                                    </p>
+
+                                    {% set currentDate = "now"|date("Y-m-d") %}
+                                    {% if element.date_fin_deck < currentDate or (element.isFull is defined and element.isFull) %}
+                                        <p class="text-danger fw-bold">Ce deck est complet ou a atteint sa date limite, vous ne pouvez plus ajouter de cartes.</p>
+                                    {% else %}
+                                        {% if element.id_deck not in participationDeck %}
+                                            <a href="{{ url('/deck/add/' ~ element.id_deck) }}" class="btn btn-primary m-4">Ajouter une carte 🃏</a>
+                                        {% else %}
+                                            <p class="text-danger fw-bold">Vous avez déjà participé à ce deck.</p>
+                                        {% endif %}
+                                    {% endif %}
+
+                                    {% if element.id_deck in participationDeck %}
+                                        <a href="{{ url('/carte/index/' ~ element.id_deck) }}" class="btn btn-primary m-4">Accéder à votre carte et votre exemple 🎴</a>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% else %}
+                <p>Aucun jeu de carte disponible pour le moment.</p>
+            {% endif %}
+        {% endif %}
+    </div>
+{% endblock %}

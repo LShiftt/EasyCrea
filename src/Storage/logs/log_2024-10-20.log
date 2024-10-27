@@ -1,0 +1,161 @@
+[2024-10-20 15:27:49]	[ALERT]	404 - commande non existante :: /deck/add
+[2024-10-20 15:34:36]	[ALERT]	500 - la méthode add n'existe pas
+[2024-10-20 15:42:43]	[ALERT]	404 - commande non existante :: /avatars/éditer/
+[2024-10-20 15:42:55]	[ALERT]	404 - commande non existante :: /deck/add/
+[2024-10-20 15:43:13]	[ALERT]	404 - commande non existante :: /deck/add/
+[2024-10-20 15:43:59]	[ALERT]	404 - commande non existante :: /deck/add/
+[2024-10-20 15:46:44]	[ALERT]	404 - commande non existante :: /carte/add/
+[2024-10-20 15:51:11]	[ALERT]	404 - commande non existante :: /carte/add/
+[2024-10-20 15:51:15]	[ALERT]	404 - commande non existante :: /deck/add/
+[2024-10-20 15:52:00]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@index',
+        2 => array(),
+    )
+    exception-line: 35
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\View\deck\index.html.twig'
+    exception-code: 'Unexpected character "$".'
+[2024-10-20 15:52:09]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@index',
+        2 => array(),
+    )
+    exception-line: 35
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\View\deck\index.html.twig'
+    exception-code: 'Unexpected character "$".'
+[2024-10-20 16:41:55]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 231
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Model\Model.php'
+    exception-code: 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'num_carte' in 'field list''
+[2024-10-20 16:56:07]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 11
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\View\carte\add.html.twig'
+    exception-code: 'Unexpected token "operator" of value "%".'
+[2024-10-20 17:10:44]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 231
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Model\Model.php'
+    exception-code: 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3' for key 'PRIMARY''
+[2024-10-20 17:10:45]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 231
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Model\Model.php'
+    exception-code: 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3' for key 'PRIMARY''
+[2024-10-20 17:58:05]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 22
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\CarteController.php'
+    exception-code: 'Trying to access array offset on value of type bool'
+[2024-10-20 17:58:20]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 22
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\CarteController.php'
+    exception-code: 'Trying to access array offset on value of type bool'
+[2024-10-20 18:05:59]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 27
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\CarteController.php'
+    exception-code: 'Undefined array key "valeurs_choix1"'
+[2024-10-20 18:10:56]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 26
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\CarteController.php'
+    exception-code: 'Undefined array key "valeurs_choix1"'
+[2024-10-20 18:11:09]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 26
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\CarteController.php'
+    exception-code: 'Undefined array key "valeurs_choix1"'
+[2024-10-20 18:19:35]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 27
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\CarteController.php'
+    exception-code: 'Undefined array key "valeurs_choix1"'
+[2024-10-20 18:41:33]	[ALERT]	404 - commande non existante :: /deck/add
+[2024-10-20 18:42:20]	[ALERT]	404 - commande non existante :: /deck/add
+[2024-10-20 19:24:22]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '2',
+        ),
+    )
+    exception-line: 25
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\CarteController.php'
+    exception-code: 'Trying to access array offset on value of type int'
+[2024-10-20 19:24:27]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 25
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\CarteController.php'
+    exception-code: 'Trying to access array offset on value of type int'

@@ -1,0 +1,29 @@
+{% extends 'layout.html.twig' %}
+{% block title %}
+	Page de connexion - {{parent()}}
+{% endblock %}
+{% block content %}
+		<main class="container">
+			<h1>Se connecter</h1>
+			<form action="{{ url('/home') }}" method="post" class="w-50" enctype="multipart/form-data">
+				<div class="mb-3">
+					<label class="form-label">Email
+						<span class="required-info">*</span>
+						:</label>
+					<input name="email" type="email" class="form-control" required/>
+				</div>
+				<div class="mb-3">
+					<label class="form-label">Mot de passe
+						<span class="required-info">*</span>
+						:</label>
+					<input name="password" type="password" class="form-control" required/>
+				</div>
+				<p class="text-danger fs-6">Les données marquées d'une astérisque sont obligatoires.</p>
+				{% if res is same as(false) %}
+					<p class="text-danger fs-6">Information introuvable, veuillez rééssayer.</p>
+				{% endif %}
+				<button type="submit" class="btn btn-primary">Connexion</button>
+				<a href="{{ url('/') }}" class="btn btn-link text-black">annuler</a>
+			</form>
+		</main>
+	{% endblock %}

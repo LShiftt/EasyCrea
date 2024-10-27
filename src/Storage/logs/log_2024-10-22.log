@@ -1,0 +1,27 @@
+[2024-10-22 17:14:24]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@index',
+        2 => array(),
+    )
+    exception-line: 25
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\DeckController.php'
+    exception-code: 'Undefined variable $resCartes'
+[2024-10-22 17:14:33]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@index',
+        2 => array(),
+    )
+    exception-line: 25
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\DeckController.php'
+    exception-code: 'Undefined variable $resCartes'
+[2024-10-22 17:14:56]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@index',
+        2 => array(),
+    )
+    exception-line: 25
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\DeckController.php'
+    exception-code: 'Undefined variable $resCartes'

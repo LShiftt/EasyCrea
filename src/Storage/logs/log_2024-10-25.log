@@ -1,0 +1,304 @@
+[2024-10-25 11:36:27]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 231
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Model\Model.php'
+    exception-code: 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY''
+[2024-10-25 11:49:32]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 231
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Model\Model.php'
+    exception-code: 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY''
+[2024-10-25 11:49:33]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 231
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Model\Model.php'
+    exception-code: 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY''
+[2024-10-25 11:49:34]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 231
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Model\Model.php'
+    exception-code: 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY''
+[2024-10-25 11:49:35]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 231
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Model\Model.php'
+    exception-code: 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY''
+[2024-10-25 11:51:42]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 231
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Model\Model.php'
+    exception-code: 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY''
+[2024-10-25 12:20:52]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 42
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\CarteController.php'
+    exception-code: 'Trying to access array offset on value of type int'
+[2024-10-25 12:22:04]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 42
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\CarteController.php'
+    exception-code: 'Trying to access array offset on value of type int'
+[2024-10-25 12:42:45]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 42
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\CarteController.php'
+    exception-code: 'Trying to access array offset on value of type int'
+[2024-10-25 12:43:49]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 231
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Model\Model.php'
+    exception-code: 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY''
+[2024-10-25 12:52:24]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 231
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Model\Model.php'
+    exception-code: 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY''
+[2024-10-25 12:52:27]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 231
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Model\Model.php'
+    exception-code: 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY''
+[2024-10-25 12:52:28]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 231
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Model\Model.php'
+    exception-code: 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY''
+[2024-10-25 12:57:31]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 231
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Model\Model.php'
+    exception-code: 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY''
+[2024-10-25 12:57:33]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 231
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Model\Model.php'
+    exception-code: 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY''
+[2024-10-25 13:00:18]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 35
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\CarteController.php'
+    exception-code: 'Trying to access array offset on value of type int'
+[2024-10-25 13:05:41]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 231
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Model\Model.php'
+    exception-code: 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'num_carte''
+[2024-10-25 14:59:47]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@index',
+        2 => array(),
+    )
+    exception-line: 49
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\View\deck\index.html.twig'
+    exception-code: 'Unexpected "endif" tag (expecting closing tag for the "for" tag defined near line 20).'
+[2024-10-25 15:04:59]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(),
+    )
+    exception-line: 53
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\View\deck\index.html.twig'
+    exception-code: 'Unexpected "endfor" tag (expecting closing tag for the "if" tag defined near line 38).'
+[2024-10-25 15:08:28]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(),
+    )
+    exception-line: 53
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\View\deck\index.html.twig'
+    exception-code: 'Unexpected "endfor" tag (expecting closing tag for the "if" tag defined near line 38).'
+[2024-10-25 15:15:29]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@index',
+        2 => array(),
+    )
+    exception-line: 50
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\DeckController.php'
+    exception-code: 'compact(): Undefined variable $resCartes'
+[2024-10-25 15:19:05]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@index',
+        2 => array(),
+    )
+    exception-line: 49
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\DeckController.php'
+    exception-code: 'compact(): Undefined variable $resCartes'
+[2024-10-25 15:19:52]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@index',
+        2 => array(),
+    )
+    exception-line: 50
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\DeckController.php'
+    exception-code: 'compact(): Undefined variable $resCartes'
+[2024-10-25 15:20:23]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@index',
+        2 => array(),
+    )
+    exception-line: 51
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\DeckController.php'
+    exception-code: 'Undefined variable $participationDeck'
+[2024-10-25 15:21:05]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@index',
+        2 => array(),
+    )
+    exception-line: 48
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\DeckController.php'
+    exception-code: 'Undefined variable $participationDeck'
+[2024-10-25 15:21:06]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@index',
+        2 => array(),
+    )
+    exception-line: 48
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\DeckController.php'
+    exception-code: 'Undefined variable $participationDeck'
+[2024-10-25 15:21:25]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@index',
+        2 => array(),
+    )
+    exception-line: 48
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\DeckController.php'
+    exception-code: 'Undefined variable $participationDeck'
+[2024-10-25 15:23:22]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@index',
+        2 => array(),
+    )
+    exception-line: 79
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\View\deck\index.html.twig'
+    exception-code: 'Unexpected "endblock" tag (expecting closing tag for the "if" tag defined near line 12).'
+[2024-10-25 15:26:23]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@index',
+        2 => array(),
+    )
+    exception-line: 41
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\View\deck\index.html.twig'
+    exception-code: 'Unexpected token "operator" of value "not" ("end of statement block" expected).'
+[2024-10-25 15:30:11]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@index',
+        2 => array(),
+    )
+    exception-line: 38
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\View\deck\index.html.twig'
+    exception-code: 'Unexpected "endif" tag (expecting closing tag for the "block" tag defined near line 7).'

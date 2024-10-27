@@ -1,0 +1,11 @@
+[2024-10-21 12:29:21]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'carte@add',
+        2 => array(
+            'deck_id' => '1',
+        ),
+    )
+    exception-line: 25
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\CarteController.php'
+    exception-code: 'Trying to access array offset on value of type int'

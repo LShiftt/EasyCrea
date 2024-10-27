@@ -1,0 +1,22 @@
+{% extends 'layout.html.twig' %}
+{% block title %}Page d'accueil - {{parent()}}
+{% endblock %}
+{% block content %}
+	<div class="container">
+		<h1 class="display-1">Bienvenue sur EasyCrea</h1>
+
+		{% if not infos %}
+			<a href="{{ url('/home/login') }}" class="btn btn-primary m-4">Se connecter</a>
+			<a href="{{ url('/createur/register') }}" class="btn btn-primary m-4">Créer un compte</a>
+		{% endif %}
+
+
+		{% if infos %}
+			<a href="{{ url('/home/logout') }}" class="btn btn-primary m-4">Se déconnecter</a>
+		{% endif %}
+			<a href="{{ url('/deck') }}" class="btn btn-primary m-4">Voir les jeux de cartes actuels</a>
+		{% if message %}
+			<h3 class="primary m-4">{{message}}</h3>
+		{% endif %}
+	</div>
+{% endblock %}

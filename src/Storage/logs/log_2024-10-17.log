@@ -1,0 +1,109 @@
+[2024-10-17 13:37:44]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'createur@register',
+        2 => array(),
+    )
+    exception-line: 231
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Model\Model.php'
+    exception-code: 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ad' in 'where clause''
+[2024-10-17 19:14:00]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@index',
+        2 => array(),
+    )
+    exception-line: 7
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\View\deck\index.html.twig'
+    exception-code: 'A block must start with a tag name.'
+[2024-10-17 19:14:24]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@index',
+        2 => array(),
+    )
+    exception-line: 7
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\View\deck\index.html.twig'
+    exception-code: 'A block must start with a tag name.'
+[2024-10-17 19:24:23]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@index',
+        2 => array(),
+    )
+    exception-line: 5
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\View\deck\index.html.twig'
+    exception-code: 'A block must start with a tag name.'
+[2024-10-17 19:24:28]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@index',
+        2 => array(),
+    )
+    exception-line: 5
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\View\deck\index.html.twig'
+    exception-code: 'A block must start with a tag name.'
+[2024-10-17 19:24:40]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@index',
+        2 => array(),
+    )
+    exception-line: 5
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\View\deck\index.html.twig'
+    exception-code: 'A block must start with a tag name.'
+[2024-10-17 19:24:42]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@index',
+        2 => array(),
+    )
+    exception-line: 5
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\View\deck\index.html.twig'
+    exception-code: 'A block must start with a tag name.'
+[2024-10-17 19:24:42]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@index',
+        2 => array(),
+    )
+    exception-line: 5
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\View\deck\index.html.twig'
+    exception-code: 'A block must start with a tag name.'
+[2024-10-17 19:25:32]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@index',
+        2 => array(),
+    )
+    exception-line: 227
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\vendor\twig\twig\src\Loader\FilesystemLoader.php'
+    exception-code: 'Unable to find template "deck/" (looked into: C:\xampp\htdocs\EasyCreaMVC\src\View).'
+[2024-10-17 19:26:26]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@index',
+        2 => array(),
+    )
+    exception-line: 5
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\View\deck\index.html.twig'
+    exception-code: 'A block must start with a tag name.'
+[2024-10-17 19:40:32]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@index',
+        2 => array(),
+    )
+    exception-line: 22
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\Controller\DeckController.php'
+    exception-code: 'compact(): Undefined variable $admin'
+[2024-10-17 19:57:02]	[ALERT]	404 - erreur dans le processus de traitement du routage
+    routeInfo: array(
+        0 => 1,
+        1 => 'deck@index',
+        2 => array(),
+    )
+    exception-line: 12
+    exception-file: 'C:\xampp\htdocs\EasyCreaMVC\src\View\deck\index.html.twig'
+    exception-code: 'Unexpected "else" tag (expecting closing tag for the "block" tag defined near line 6).'
+[2024-10-17 20:03:38]	[ALERT]	404 - commande non existante :: /deck/create
