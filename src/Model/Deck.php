@@ -11,10 +11,10 @@ class Deck extends Model
     protected $tableCarte = APP_TABLE_PREFIX . 'carte';
 
     public function createDeck(
-        string $titre, //aff
+        string $titre,
         string $dateDeb,
-        string $dateFin, //aff
-        string $nbCartes, //aff
+        string $dateFin,
+        string $nbCartes,
         int $nbJaimes,
         int $idAdmin
     ) {
@@ -32,11 +32,6 @@ class Deck extends Model
         return $sth ? true : false;
     }
 
-    /**
-     * Effacer un deck
-     * @param string $id
-     * @return mixed
-     */
     public function deleteDeck(string $id)
     {
         $sql = "DELETE FROM `{$this->tableName}` WHERE id_deck = :id";

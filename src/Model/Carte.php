@@ -69,7 +69,6 @@ class Carte extends Model
         $res = $sth->fetch();
         return $res;
     }
-    
     public function createCarteRng($idDeck, $idCreateur)
     {
         $res = $this->getCarteRandomFromDeck($idDeck);
@@ -79,14 +78,6 @@ class Carte extends Model
         $this->query($sql, [':idCarte' => $idCarte, ':idDeck' => $idDeck, ':idCreateur' => $idCreateur]);
         return $idCarte;
     }
-
-
-
-    /**
-     * Summary of findCarteByID
-     * @param int $id
-     * @return mixed
-     */
     public function findCarteByID(
         int $id
     ) {
@@ -103,13 +94,6 @@ class Carte extends Model
         $res = $sth->fetchAll();
         return $res ? $res : false;
     }
-
-    /**
-     * Summary of findCarteByDeck
-     * @param int $deck
-     * @param int $ordre
-     * @return mixed
-     */
     public function findCarteByDeck(
         int $deck,
         int $ordre

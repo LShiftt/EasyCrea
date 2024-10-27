@@ -1,20 +1,34 @@
 # EasyCrea
 
-lien pour accéder à l'app : https://mdubois.alwaysdata.net/EasyCrea/
-lien pour accéder à la base de données : https://phpmyadmin.alwaysdata.com/
+### Lien d'accès
+- **Application** : [EasyCrea - Application](https://mdubois.alwaysdata.net/EasyCrea/)
+- **Base de données** : [PHPMyAdmin](https://phpmyadmin.alwaysdata.com/)
 
-Utilisateur MySQL = https://phpmyadmin.alwaysdata.com/
-Mot de passe = 'y~<zJZd^~Xumh>
+### Informations MySQL
+- **Utilisateur** : `mdubois`
+- **Mot de passe** : `'y~<zJZd^~Xumh>`
 
+Le fichier SQL de la base de données se trouve dans le répertoire racine du projet GitHub (non disponible en production).
 
+---
 
+## Guide d'utilisation
 
+### Identifiants de connexion
 
-Identification admin :
-Email : admin@gmail.com
-Mot de passe : aaaa
+**Compte Administrateur :**
+- **Email** : `admin@gmail.com`
+- **Mot de passe** : `aaaa`
 
-Identification créateur :
-Nom : Camille
-Email : c@gmail.com
-Mot de passe : cccc
+**Compte Créateur :**
+- **Nom** : `Camille`
+- **Email** : `c@gmail.com`
+- **Mot de passe** : `cccc`
+
+### Fonctionnalités
+
+Toutes les fonctionnalités attendues devraient être disponibles.
+
+> **Note :** Pour les créateurs, l'identifiant unique est basé sur l'email, et non sur le nom. Cela permet à plusieurs utilisateurs portant le même nom de s'inscrire sans problème, car chaque compte est associé à une adresse email unique.
+
+---
